@@ -1,0 +1,30 @@
+.dark-mode {
+    --bg-color: #1a1a2e;
+    --card-color: #16213e;
+    --text-color: #f1f1f1;
+}
+
+.light-mode {
+    --bg-color: #f5f7fa;
+    --card-color: #ffffff;
+    --text-color: #333;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s;
+}
+
+.card {
+    background: var(--card-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+}
