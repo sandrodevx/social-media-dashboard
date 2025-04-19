@@ -2,7 +2,6 @@
 
 A sleek, interactive dashboard to track social media metrics with dark/light mode. Built with pure HTML/CSS/JS and Chart.js.
 
-![Dashboard Preview](https://i.imgur.com/8XyFl3m.png) *(Dark mode with animated cards and charts)*
 
 ## ✨ Features
 
